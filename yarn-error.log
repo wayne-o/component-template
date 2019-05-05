@@ -1,0 +1,59 @@
+Arguments: 
+  /Users/waynedouglas/.nvm/versions/node/v11.10.0/bin/node /Users/waynedouglas/.nvm/versions/node/v11.10.0/bin/yarn add ollup-plugin-postcss -D
+
+PATH: 
+  /Users/waynedouglas/Downloads/google-cloud-sdk/bin:/Users/waynedouglas/.nvm/versions/node/v11.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/waynedouglas/Downloads/google-cloud-sdk/bin:/Users/waynedouglas/.nvm/versions/node/v11.10.0/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ollup-plugin-postcss: Not found
+      at Request.params.callback [as _callback] (/Users/waynedouglas/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/Users/waynedouglas/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/Users/waynedouglas/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/Users/waynedouglas/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "SvelteComponent",
+    "svelte": "src/index.svelte",
+    "module": "index.mjs",
+    "main": "index.js",
+    "scripts": {
+      "build": "rollup -c",
+      "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+      "rollup": "^1.7.4",
+      "rollup-plugin-node-resolve": "^4.0.1",
+      "rollup-plugin-svelte": "^5.0.3",
+      "svelte": "^3.0.0"
+    },
+    "keywords": [
+      "svelte"
+    ],
+    "files": [
+      "src",
+      "index.mjs",
+      "index.js"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
